@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+   
+    <title>assignment-3</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body class="font">
+    <div class="outerContainer">
+
+        <header class="topBar">
+            <ul class="topMenu">
+                <li class="logo_li"><img class="logo" src="./images/8 angle_logo.png"></li>
+                <li class="remove"><a href="">Home</a></li>
+                <li class="remove"><a href="">About</a></li>
+                <li class="remove"><a href="">Media</a></li>
+                <li class="remove"><a href="./index.html">Is EightAngle right for me?</a></Li>
+                <li class="remove"><a href="">Apply now!</a></Li>
+                <li class="hamburgerMenu"><img class="hamburger" src="./images/hamburgerMenu.png"></li>
+            </ul>
+        </header>
+
+        <div class="main" id="mainId">
+            <div class="quizTitle">
+                <h1>Find out if you're a fitting candidate!</h1>
+            </div>
+
+            <div class="question-container">
+                <div class="question-title">
+                    <h2>What are you applying as?</h2>
+                </div>
+                <form class="questions-answers-container">
+                    <div class="option">
+                        <input name="q1" class="answer answer-count" value="40" type="radio" id="singer" />
+                        <label for="singer">Singer</label>
+                    </div>
+                    <div class="option">
+                        <input name="q1" class="answer answer-count" value="1" type="radio" id="answer-holder1" />
+                        <label for="answer-holder1">Songwriter</label>
+                    </div>
+                    <div class="option">
+                        <input name="q1" class="answer answer-count" value="1" type="radio" id="answer-holder2" />
+                        <label for="answer-holder2">Professional instrument player</label>
+                    </div>
+                    <div class="option">
+                        <input name="q1" class="answer answer-count" value="0" type="radio" id="answer-holder3" />
+                        <label for="answer-holder3">I'm applying as all of the above mentioned</label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="question-container" style="display:none">
+                <div class="question-title">
+                    <h2>Please select your age and sex*</h2>
+                    <p>*We ask this since some songs call for a female or a male vocal specifically, and recruitment is
+                        taking this fact into consideration</p>
+                    <form class="questions-answers-container">
+                        <div class="option">
+                            <label for="birthday">Please select your date of birth</label>
+                            <input class="answer" type="month" id="birthday" />
+                        </div>
+                        <div class="option alignV gender">
+                            <h3>Gender:</h3>
+                            <label for="male">Male</label>
+                            <input name="gender" class="answer" type="radio" id="male" />
+                            <label for="female">Female</label>
+                            <input name="gender" class="answer" type="radio" id="female" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="question-container" style="display:none">
+                <div class="question-title">
+                    <h2>What level of professional experience do you have?</h2>
+                </div>
+                <form class="questions-answers-container">
+                    <div class="option">
+                        <input name="q3" class="answer answer-count" value="61" type="radio" id="answer-holder4" />
+                        <label for="answer-holder4">Strictly amateur</label>
+                    </div>
+                    <div class="option">
+                        <input name="q3" class="answer answer-count" value="30" type="radio" id="answer-holder5" />
+                        <label for="answer-holder5">Extracaricular at school</label>
+                    </div>
+                    <div class="option">
+                        <input name="q3" class="answer answer-count" value="10" type="radio" id="answer-holder6" />
+                        <label for="answer-holder6">After school music school or program</label>
+                    </div>
+                    <div class="option">
+                        <input name="q3" class="answer answer-count" value="1" type="radio" id="answer-holder7" />
+                        <label for="answer-holder7">Degree/certification</label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="question-container" style="display:none">
+                <div class="question-title">
+                    <h2>Which statement best describes your passion to music?</h2>
+                </div>
+                <form class="questions-answers-container">
+                    <div class="option">
+                        <input name="q4" class="answer answer-count" value="251" type="radio" id="answer-holder8" />
+                        <label for="answer-holder8">I Must have the fame, and must have it ASAP, I will do whatever it
+                            takes, I will go full force to obtain it</label>
+                    </div>
+                    <div class="option">
+                        <input name="q4" class="answer answer-count" value="151" type="radio" id="answer-holder9" />
+                        <label for="answer-holder9">I Must show the world what I can do, I'm too talented to keep it to
+                            myself</label>
+                    </div>
+                    <div class="option">
+                        <input name="q4" class="answer answer-count" value="15" type="radio" id="answer-holder10" />
+                        <label for="answer-holder10">I'm not yet at my musical prime, I have some ways to go; but I am
+                            willing to work hard on my craft</label>
+                    </div>
+                    <div class="option">
+                        <input name="q4" class="answer answer-count" value="30" type="radio" id="answer-holder11" />
+                        <label for="answer-holder11">I love music, but it is not the focal point of my life... maybe a
+                            hobby</label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="question-container" style="display:none">
+                <div class="question-title">
+                    <h2>How many followers do you currently have?</h2>
+                </div>
+                <form class="questions-answers-container">
+                    <div class="option">
+                        <label for="followers">Followers:</label>
+                        <input class="answer" type="number" id="followers" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="question-container" style="display:none">
+                <div class="question-title">
+                    <h2>How long have you been practicing your craft?</h2>
+                </div>
+                <form class="questions-answers-container">
+                    <div class="option">
+                        <label for="experience">Experience:</label>
+                        <input class="answer" type="range" onchange="displayEx();" min="1" max="50" id="experience" />
+                    </div>
+                    <div class="experience-container">
+                        <span id="displayExperience"></span><span>&nbsp years</span>
+                    </div>
+                </form>
+            </div>
+
+            <div class="question-container" style="display:none">
+                <div class="question-title">
+                    <h2>Which best describes your music taste?</h2>
+                </div>
+                <form class="questions-answers-container">
+                    <div class="option">
+                        <input name="q5" class="answer answer-count" value="251" type="radio" id="answer-holder12" />
+                        <label for="answer-holder12">I love synths, digital sounds, and modern drum-loops and special
+                            effects</label>
+                    </div>
+                    <div class="option">
+                        <input name="q5" class="answer answer-count" value="1" type="radio" id="answer-holder13" />
+                        <label for="answer-holder13">I prefer acoustic/real instruments, these digital sounds are
+                            annoying</label>
+                    </div>
+                    <div class="option">
+                        <input name="q5" class="answer answer-count" value="40" type="radio" id="answer-holder14" />
+                        <label for="answer-holder14">I enjoy equally; both digital and acounstic sounds</label>
+                    </div>
+                    <div class="option">
+                        <input name="q5" class="answer answer-count" value="200" type="radio" id="answer-holder15" />
+                        <label for="answer-holder15">Digital sounds belong in star wars' movies, and not in my music
+                            library or my life</label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="question-container" style="display:none">
+                <div class="question-title">
+                    <h2>Preference for Israeli/English/Other type of music?</h2>
+                </div>
+                <form class="questions-answers-container">
+                    <div class="option">
+                        <input name="q6" class="answer answer-count" value="0" type="radio" id="answer-holder16" />
+                        <label for="answer-holder16">I prefer Israeli music in hebrew</label>
+                    </div>
+                    <div class="option">
+                        <input name="q6" class="answer answer-count" value="101" type="radio" id="answer-holder17" />
+                        <label for="answer-holder17">I prefer English/Western music</label>
+                    </div>
+                    <div class="option">
+                        <input name="q6" class="answer answer-count" value="5" type="radio" id="answer-holder18" />
+                        <label for="answer-holder18">I dont have a preference</label>
+                    </div>
+                    <div class="option">
+                        <input name="q6" class="answer answer-count" value="40" type="radio" id="answer-holder19" />
+                        <label for="answer-holder19">I prefer something in a different language, other than both
+                            English and Hebrew</label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="question-container" style="display:none">
+                <div class="question-title">
+                    <h2>How much time can you dedicate to this music project a week?</h2>
+                </div>
+                <form class="questions-answers-container">
+                    <div class="option">
+                        <label id="fitin" for="hours-a-week">Hours:</label>
+                        <input class="answer" type="range" onchange="displayHr();" min="1" max="20" id="hours-a-week" />
+                    </div>
+                    <div class="hours-a-week-container">
+                        <span id="display-hours-a-week"></span><span>&nbsp hours a week</span>
+                    </div>
+                </form>
+            </div>
+
+            <div class="question-container" style="display:none">
+                <div class="question-title">
+                    <p class="edit-or-submit-text">This is enough information for now, click Prev to go back and edit your answers or Submit to receive an immediate assessment on wheather or not you would be a good fit at EightAngle</p>
+                </div>
+            </div>
+
+
+
+            <div id="allButtons" class="next-button-container">
+                <button class="font" style="display:none" id="prevButton" onclick="loadPrevQ(main, questionContainer);">Prev</button>
+                <button class="font" id="nextButton" onclick="loadNextQ(main, numOfQuestions, questionContainer);">Next</button>
+                <button class="font" style="display:none" id="submitButton" onclick="submitAnswers(questionContainer, numOfQuestions);">submit</button>
+            </div>
+            <div id="result" class="result-container" style="display:none">
+            </div>
+        </div>
+        <footer class="bottomBar">
+            <h4>Contact:</h4>
+            <ul class="bottomNav">
+                <li class="icons"><i class="fab fa-facebook"></i></li>
+                <li class="icons"><i class="fab fa-instagram"></i></li>
+                <li class="icons"><i class="fab fa-twitter-square"></i></li>
+                <li class="icons"><i class="fas fa-envelope-square"></i></li>
+            </ul>
+            <p>Oren Spiegel is the sole owner and content creator for this site, all media or other intellectual property&copy; is protected gainst misuse</p>
+        </footer>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
