@@ -1,0 +1,212 @@
+body{
+    margin:0;
+    padding:0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 3.14286;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+}
+
+/*all sections*/
+
+.sections .menu-div{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 0 220px;
+    white-space: nowrap;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width:100%;
+    box-sizing: border-box;
+    
+}
+.sections .iphone-xs-div{
+    background-image: url("../images/iphonexs.PNG");
+    background-size: cover;
+    height:580px;
+    text-align:center;
+    margin-bottom:6px;
+    margin-top: 44px;
+}
+.sections .iphone-xr-div{
+    margin-top:6px;
+    height:580px;
+    background-image: url("../images/iphonexr.PNG");
+    background-size: cover;
+}
+.sections .watch-div{
+    background-image: url("../images/watch.PNG");
+    background-size: cover;
+    height:580px;
+}
+.sections .music-and-airpods-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-align: center;
+}
+.sections .music-and-airpods-div .music{
+    background-image: url("../images/music.PNG");
+    background-size: cover;
+    height:580px;
+    width: 49%; 
+    margin:6px;
+}
+.sections .music-and-airpods-div .airpods{
+    background-image: url("../images/airpods.PNG");
+    background-size: cover;
+    height:580px;
+    width: 49%; 
+    margin:6px;
+
+}
+.sections .give-back-homepod-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-align: center;
+}
+.sections .give-back-homepod-div .give-back{
+    display: flex;  
+    background-image: url("../images/giveback.png");
+    background-size: cover;
+    height:580px;
+    width: 46%; 
+    margin:6px;
+}
+.sections .give-back-homepod-div .homepod{
+    display: flex;  
+    background-image: url("../images/homepod.png");
+    background-size: cover;
+    height:580px;
+    width: 46%; 
+    margin:6px;
+}
+
+.sections .macbook-pro-ipad-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-align: center;
+}
+
+.sections .macbook-pro-ipad-div .macbook-pro{
+    display: flex;  
+    background-image: url("../images/macbook.png");
+    background-size: cover;
+    height:580px;
+    width: 46%; 
+    margin:6px;
+}
+
+.sections .macbook-pro-ipad-div .ipad{
+    display: flex;  
+    background-image: url("../images/ipad.png");
+    background-size: cover;
+    height:580px;
+    width: 46%; 
+    margin:6px;
+}
+
+
+
+
+
+.sections .menu-footer{
+    margin-top:6px;
+    height:420px;
+    background-image: url("../images/footer.png");
+    background-size: contain;
+}
+
+/*headings*/
+
+.sections .menu-div h5{
+    display: flex;
+}
+
+/*linkable fonts*/
+
+#learnmorexs{
+    color: #6bf;
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 120px; 
+    display:inline-block;
+    margin-right:18px;
+}
+#buyxs{
+    color: #6bf;
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 120px; 
+    display:inline-block;
+    margin-left:18px;
+}
+
+#learnmorewatch{
+    color: #6bf;
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 120px; 
+    display:inline-block;
+    margin-right:18px;
+    margin-left:300px;
+    margin-top:340px;
+}
+#buywatch{
+    color: #6bf;
+    font-size: 19px;
+    text-decoration: none;
+    display:inline-block;
+    margin-left:18px;
+}
+#tryitmusic{
+    color:white;
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 120px; 
+    display:inline-block;
+    margin-left: 250px;
+}
+#learnmoremusic{
+    color:white;
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 120px; 
+    display:inline-block;
+    margin-left:18px;
+}
+#learnmorepods{
+    color:#6bf;
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 120px; 
+    display:inline-block;
+    margin-left: 290px;
+}
+#buypods{
+    color:#6bf;
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 120px; 
+    display:inline-block;
+    margin-left:18px;
+}
+
